@@ -1,0 +1,226 @@
+name: project_one
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.11.0 <3.0.0"
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  flutter_svg: ^1.1.5
+  splashscreen: ^1.3.5
+  animated_splash_screen: ^1.3.0
+  location: ^4.4.0
+  google_maps_flutter: ^2.1.0
+  firebase_core: ^1.23.0
+  firebase_auth: ^3.10.0
+  cloud_firestore: ^3.4.9
+  provider: ^6.0.4
+  url_launcher: ^6.1.5
+  flutter_phone_direct_caller: ^2.1.1
+  google_fonts: ^2.0.0
+  localization: ^2.1.0
+  custom_text: ^0.5.1
+  flutter_credit_card: ^2.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^2.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+
+    - assets/Gym cover.jpeg
+    - assets/logo.jpeg
+    - assets/logo 2 .jpeg
+    - assets/register 2 .svg
+    - assets/google-plus.svg
+    - assets/facebook.svg
+    - assets/twitter.svg
+    - assets/gym shop.jpeg
+    - assets/about gym.jpeg
+    - assets/courses logo.jpeg
+    - assets/about gym3.jpeg
+    - assets/gymshop logo2.jpeg
+    - assets/courses logo2.jpeg
+
+    - assets/a.jpeg
+    - assets/b.jpeg
+    - assets/c.jpeg
+    - assets/d.jpeg
+    - assets/e.jpeg
+    - assets/f.jpeg
+    - assets/full.jpeg
+    - assets/pay.jpeg
+    - assets/payp.jpeg
+    - assets/payps.jpeg
+    - assets/payspes.jpeg
+    - assets/tray.jpeg
+    - assets/tray1.jpeg
+    - assets/tray2.jpeg
+    - assets/tray3.jpeg
+    - assets/ch1.jpeg
+    - assets/ch2.jpeg
+    - assets/ch3.jpeg
+    - assets/ch4.jpeg
+    - assets/ch5.jpeg
+    - assets/ch6.jpeg
+    - assets/back1.jpeg
+    - assets/back2.jpeg
+    - assets/back3.jpeg
+    - assets/back4.jpeg
+    - assets/back5.jpeg
+    - assets/back6.jpeg
+    - assets/back7.jpeg
+    - assets/leg1.jpeg
+    - assets/leg2.jpeg
+    - assets/leg3.jpeg
+    - assets/leg4.jpeg
+    - assets/leg5.jpeg
+    - assets/leg6.jpeg
+    - assets/leg7.jpeg
+    - assets/abs1.jpeg
+    - assets/abs2.jpeg
+    - assets/abs3.jpeg
+    - assets/abs4.jpeg
+    - assets/sh1.jpeg
+    - assets/sh2.jpeg
+    - assets/sh3.jpeg
+    - assets/sh4.jpeg
+    - assets/sh5.jpeg
+    - assets/f1.jpeg
+    - assets/f2.jpeg
+    - assets/f3.jpeg
+    - assets/f4.jpeg
+    - assets/f5.jpeg
+    - assets/f6.jpeg
+    - assets/f7.jpeg
+    - assets/f8.jpeg
+    - assets/f9.jpeg
+    - assets/f10.jpeg
+    - assets/f11.jpeg
+    - assets/f12.jpeg
+    - assets/f13.jpeg
+    - assets/f14.jpeg
+    - assets/f15.jpeg
+    - assets/f16.jpeg
+    - assets/f17.jpeg
+    - assets/f18.jpeg
+    - assets/f19.jpeg
+    - assets/f20.jpeg
+    - assets/f21.jpeg
+    - assets/f22.jpeg
+    - assets/f23.jpeg
+    - assets/f24.jpeg
+    - assets/f25.jpeg
+    - assets/f26.jpeg
+    - assets/f27.jpeg
+    - assets/f28.jpeg
+    - assets/f29.jpeg
+    - assets/f30.jpeg
+    - assets/f31.jpeg
+    - assets/f32.jpeg
+    - assets/f33.jpeg
+    - assets/f34.jpeg
+    - assets/f35.jpeg
+    - assets/f36.jpeg
+    - assets/z1.jpeg
+    - assets/z2.jpeg
+    - assets/z3.jpeg
+    - assets/z4.jpeg
+    - assets/z5.jpeg
+    - assets/z6.jpeg
+    - assets/gold.jpeg
+    - assets/selver.jpeg
+    - assets/star.jpeg
+    - assets/coach1.jpeg
+    - assets/coach2.jpeg
+    - assets/choach3.jpeg
+    - assets/coach4.jpeg
+    - assets/legend.jpeg
+    - assets/legend2.jpeg
+    - assets/shop logo.jpg
+    - assets/shopLogo_LI.jpg
+    - assets/fitness.jpg
+    - assets/fitness 2.png
+
+    - assets/mohamed/a (1).jpg
+    - assets/mohamed/c (1).jpg
+    - assets/mohamed/download (1).jpg
+    - assets/mohamed/image (1).jpg
+    - assets/mohamed/s (1).jpg
+    - assets/mohamed/x (1).jpg
+
+    - assets/Gym Product/
+
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
